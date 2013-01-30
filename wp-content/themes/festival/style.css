@@ -32,6 +32,10 @@ html{
 	color: black;
 }
 
+#site-navigation ul li a:hover{
+  color: white;
+}
+
 .champs-persos{
 	margin: 10px 0px;
 }
@@ -73,3 +77,22 @@ html{
   width: 60%;
   border: 0;
   }
+
+#masthead hgroup{
+  padding-top:50px;
+  margin-top: 10px;
+  float: left;
+}
+#masthead img{
+  width: 700px;
+  margin-left: 60px;
+}
+#text-4{
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#text-4 a{
+  color: #FE2EC8;
+}

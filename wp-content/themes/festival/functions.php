@@ -21,7 +21,7 @@ function getSlideItem(){
 	if ( $attachments ) {
 		$output =array();
 		foreach ( $attachments as $attachment ) {
-			if($attachment->ID!=121){
+			if(($attachment->ID!=121)&&($attachment->ID!=130)){
 				$thumb = wp_get_attachment_link( $attachment->ID, 'thumbnail-size', true );
 				$output[] = '<li>' . $thumb. '</li>';
 			}
