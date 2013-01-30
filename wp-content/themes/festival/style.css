@@ -1,0 +1,75 @@
+/*
+Theme Name:Festival
+Description:Thème enfant du thème Twenty Twelve
+Author:Mathieu LEMELE
+Template:twentytwelve
+Version:0.1.0
+*/
+
+
+
+
+@import url("../twentytwelve/style.css");
+
+html{
+	text-align: justify;
+}
+
+.fg-rouge {background-color: #ff0000; }
+.fg-orange {background-color: #FF8000; }
+.fg-jaune {background-color: #F7FE2E; }
+.fg-vert {background-color: #3ADF00; }
+.fg-bleu {background-color: #2E64FE; }
+.fg-violet {background-color: #9A2EFE; }
+
+#site-navigation ul li {
+	width: 160px;
+	text-align: center;
+	margin-right: -4px;
+}
+
+#site-navigation ul li a{
+	color: black;
+}
+
+.champs-persos{
+	margin: 10px 0px;
+}
+
+.champs-persos p{
+	margin: 5px 0px;
+}
+
+
+.slideshow {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.slideshow li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.slideshow li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.slideshow img {
+  margin-left: 20%;
+  display: block;
+  height: 350px;
+  float: left;
+  width: 60%;
+  border: 0;
+  }

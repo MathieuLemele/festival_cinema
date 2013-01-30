@@ -1,0 +1,20 @@
+/*
+Theme Name:Festival
+Description:Thème enfant du thème Twenty Twelve
+Author:Mathieu LEMELE
+Template:twentytwelve
+Version:0.1.0
+*/
+
+
+
+
+@import url("../twentytwelve/style.css");
+
+.fg-rouge {color: #ff0000; }
+.fg-orange {color: #FF8000; }
+.fg-jaune {color: #F7FE2E; }
+.fg-vert {color: #3ADF00; }
+.fg-bleu {color: #2E64FE; }
+.fg-violet {color: #9A2EFE; }
+
