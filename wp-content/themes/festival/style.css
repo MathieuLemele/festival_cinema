@@ -93,6 +93,26 @@ html{
   border-radius: 5px;
 }
 
+.widget_text{
+  background-color: #E6E6E6;
+}
+
 #text-4 a{
   color: #FE2EC8;
+}
+
+#title_prog1{
+  color: #ff0000;
+}
+#title_prog2{
+  color: #FF8000;
+}
+#title_prog3{
+  color: #FFFF00;
+}
+#title_prog4{
+  color: #3ADF00;
+}
+#title_prog5{
+  color: #2E64FE;
 }
